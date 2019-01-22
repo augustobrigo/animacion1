@@ -1,0 +1,88 @@
+.caja1{
+    border:2px solid red;
+    width:100px;
+    height: 100px;
+    background: green;
+}
+.caja2{
+    position:relative;
+    border:2px solid green;
+    border-radius:100px;
+    width:50px;
+    height: 50px;
+    background-color: red;
+}
+.caja3{
+    border:2px solid blue;
+    width:100px;
+    height: 300px;
+    background: green;
+    display:none; 
+
+}
+.caja4{
+    border:5px solid yellow;
+    width:100px;
+    height: 100px;
+    background: orange;
+}
+.caja5{
+    border: 2px solid brown;
+    width: 100px;
+    height: 100px;
+    background: lightseagreen;
+}
+.caja6{
+    border: 2px solid brown;
+    width: 100px;
+    height: 100px;
+    background: lightseagreen;
+}
+.caja8{
+    position:relative;
+    border:2px solid green;
+    overflow: hidden;
+    background: green;
+}
+.caja10{
+    position:relative;
+    border:2px solid green;
+  
+    background: green;
+    
+}
+.caja11{
+    border: 1px solid brown;
+    width: 200px;
+    height: 100px;
+   background: green;
+    color:red;
+}
+p{
+    position:absolute;
+    top:0px;
+    font-size:25px;
+    color:white;
+	
+}
+@keyframes pulse {
+    from {
+      
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+      
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+  
+    to {
+     
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  .pulse {
+    
+    animation-name: pulse;
+  }

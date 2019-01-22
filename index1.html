@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Animación1</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="stylesheet" href="estilo.css">
+   <link rel="stylesheet" href="Animate.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+  <body>
+      
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2">
+                <button id="btn1" type="button" class="btn btn-primary">Boton1</button>
+            </div>
+            <div class="col-lg-2">
+                <button id="btn2" type="button" class="btn btn-primary">Boton2</button>
+                </div>
+            <div class="col-lg-2">
+                  <button id="btn3" type="button" class="btn btn-primary">Boton3</button>
+                </div>
+            <div class="col-lg-2">
+                   <button id="btn4" type="button" class="btn btn-primary">Boton4</button>
+                </div>
+            <div class="col-lg-2">
+                        <button id="btn5" type="button" class="btn btn-primary">Boton5</button>
+                </div>
+                <div class="col-lg-2">
+                        <button id="btn6" type="button" class="btn btn-primary">Boton6</button>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="caja1">
+
+                </div>
+            </div>
+            <div class="col-lg-2">
+                    <div class="caja2">
+    
+                    </div>
+                </div>
+            <div class="col-lg-2">
+                        <div class="caja3">
+        
+                        </div>
+            </div>
+            <div class="col-lg-2">
+                    <div class="caja4">
+    
+                    </div>
+                </div>
+            <div class="col-lg-2">
+                    <div class="caja5">
+            
+             </div>
+        
+        </div>
+        <div class="col-lg-2">
+                <div class="caja6">
+        
+         </div>
+        </div>
+    </row>
+         <div class="row">
+            <div class="col-lg-2">
+                <div class="caja7">
+                <img id="img1" src="https://picsum.photos/200/101/?random" >
+                </div>
+            </div>
+            <div class="col-lg-2">
+                    <div class="caja8">
+                        <img id="img2" src="https://picsum.photos/200/102/?random" >
+                    </div>
+                </div>
+            <div class="col-lg-2">
+                        <div class="caja9">
+                            <img id="img3" src="https://picsum.photos/200/103/?random" >
+                        </div>
+            </div>
+           
+            <div class="col-lg-2">
+                <div class="caja10">
+                    <img id="img4" src="https://picsum.photos/200/104/?random" >
+                    <p>Texto de la caja 10. Tapa imagen4.adsf asd.asdf.asdf</p>
+                </div>
+               
+            </div>
+            <div class="col-lg-2">
+                <div class="caja11">
+                    <p id="p1">El texto de la caja 11, tapa imagen5 sadfasdf adsfasdf adfsdaf</p>
+                    <img id="img5" src="https://picsum.photos/200/105/?random" >
+                </div>
+            </div>       
+            <div class="col-lg-2">
+                <div class="caja12">
+                    <img id="img6" src="https://picsum.photos/200/106/?random" >
+                </div>
+            </div>   
+    
+    </div>
+          
+      </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   
+<script>
+    $(function(){
+$("#btn1").click(function(){
+    $(".caja1").animate({width:"0px" , height:"0px", borderWidth:"1px"},3000);
+$(".caja1").animate({width:"800px" , height:"100px", borderWidth:"10px"},2000);
+});
+$("#btn2").click(function(){
+     
+    $(".caja2").animate({top : "200px"},2000);
+    $(".caja2").animate({top : "toggle"},5000);
+});
+$("#btn3").click(function(){
+    $(".caja3").slideToggle("slow");
+})
+$("#btn4").click(function(){
+    $(".caja4").animate({borderBottomWidth:"20px"},1000);
+    $(".caja4").animate({borderLeftWidth:"20px"},1000);
+    $(".caja4").animate({borderTopWidth:"20px"},1000);
+    $(".caja4").animate({borderRightWidth:"20px"},1000);
+$(".caja4").animate({borderBottomWidth:"5px",borderLeftWidth:"5px",borderTopWidth:"5px",borderRightWidth:"5px"},4000);
+
+
+});
+$("#btn5").click(function(){
+   
+    $(".caja5").fadeToggle(3000);
+  /*  $(".caja5").fadeIn(3000);*/
+});
+$("#btn6").click(function(){
+
+setTimeout(bucleInfinito,1000);
+});
+$(".caja7").mouseenter(function(){
+    $("#img1").animate({width:"400px",height:"300px",borderWidth:"10px"},1000);
+});
+$(".caja7").mouseleave(function(){
+    $("#img1").animate({width:"200px",height:"101px",borderWidth:"10px"},3000); 
+});
+$(".caja8").mouseover(function(){
+$("#img2").animate({width:"-=50px",height:"-=50px"},"slow").animate({width:"+=450px",height:"+=450px"});
+});
+$(".caja8").mouseleave(function(){
+$("#img2").animate({width:"200px",height:"101px",borderWidth:"10px"},3000);
+});
+$(".caja9").mouseover(function(){
+   
+$("#img3").addClass("animated shake slow");
+
+});
+$(".caja9").mouseleave(function(){
+    $("#img3").removeClass();
+    $("#img3").addClass("animated fadeOutLeft slow");
+})
+$("p").hide();
+$(".caja10").mouseover(function(){
+    $("#img4").addClass("animated fadeOutUp slow");
+    $("p").show(500);
+});
+$(".caja10").mouseleave(function(){
+    $("#img4").removeClass();
+    $("#img4").addClass("animated fadeInDown slow");
+$("p").hide(500);
+});
+$("#p1").hide();
+$(".caja11").mouseover(function(){
+    $("#img5").addClass("animated bounceOutDown slow");
+    $("#p1").show();
+});
+$(".caja11").mouseleave(function(){
+    
+    $("#img5").removeClass();
+    $("#p1").hide();
+    $("#img5").addClass("animated bounceInDown slow");
+    });
+
+ $(".caja12").mouseover(function(){
+    $("#img6").addClass("animated flipOutX slow");
+    
+});
+$(".caja12").mouseleave(function(){
+    
+    $("#img6").removeClass();
+  
+    $("#img6").addClass("animated flip slow");
+    });
+    });
+    function bucleInfinito(){
+        $(".caja6").animate({width:"0px", height:"0px", borderWidth:"1px"});
+        $(".caja6").animate({width:"100px", height:"100px", borderWidth:"10px"});
+        setTimeout(bucleInfinito,2000);
+    }
+
+</script>  
+</body>
+</html>
